@@ -28,6 +28,21 @@ def clean_name(name):
         return name[2:]
     return name
 
+def detect_modulation(row):
+    """
+    Erkenne Modulation basierend auf Inhalt der Zeile:
+    - 'DM#' → dmr
+    - 'W-x' → c4fm
+    - sonst: nfm
+    """
+    row_str = ';'.join(row).upper()
+    if "DM#" in row_str:
+        return "dmr"
+    elif "W-X" in row_str:
+        return "c4fm"
+    else:
+        return "nfm"
+
 def csv_to_bookmark_json(csv_filename, json_filename):
     bookmarks = []
 
@@ -35,7 +50,7 @@ def csv_to_bookmark_json(csv_filename, json_filename):
         reader = csv.reader(csvfile, delimiter=';')
         for row in reader:
             if not row or len(row) < 10:
-                continue  # überspringe unvollständige Zeilen
+                continue
 
             name_raw = row[0].strip().upper()
 
@@ -49,15 +64,15 @@ def csv_to_bookmark_json(csv_filename, json_filename):
                 continue
 
             name = clean_name(name_raw)
-
             info = row[4].strip()
             distance = row[9].strip()
             description = f"{info} {distance}".strip()
+            modulation = detect_modulation(row)
 
             bookmark = {
                 "name": name,
                 "frequency": frequency,
-                "modulation": "nfm",
+                "modulation": modulation,
                 "underlying": "",
                 "description": description,
                 "scannable": True
@@ -70,4 +85,3 @@ def csv_to_bookmark_json(csv_filename, json_filename):
 # Beispiel-Aufruf
 if __name__ == "__main__":
     csv_to_bookmark_json("relais.csv", "bookmarks.json")
-
