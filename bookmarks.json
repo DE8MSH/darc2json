@@ -1,0 +1,154 @@
+[
+    {
+        "name": "0PBG",
+        "frequency": 439225000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Papenburg 100.16km",
+        "scannable": true
+    },
+    {
+        "name": "0HHH",
+        "frequency": 145750000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Hamburg-LohbrÃ¼gge (C4FM) 100.21km",
+        "scannable": true
+    },
+    {
+        "name": "0HHH",
+        "frequency": 438625000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Hamburg-LohbrÃ¼gge (C4FM) 100.21km",
+        "scannable": true
+    },
+    {
+        "name": "0SUN",
+        "frequency": 438887500,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Annaturm, Wennigsen (DB0WUR/DB0WAS) 100.21km",
+        "scannable": true
+    },
+    {
+        "name": "0DIT",
+        "frequency": 439975000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Kronprinzenkoog 101.05km",
+        "scannable": true
+    },
+    {
+        "name": "0HFD",
+        "frequency": 438525000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Herford, JO42ID / Herford, JO42ID (i) 102.45km",
+        "scannable": true
+    },
+    {
+        "name": "0HFD",
+        "frequency": 439012500,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Herford 102.46km",
+        "scannable": true
+    },
+    {
+        "name": "0SHG",
+        "frequency": 438350000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Bad Muender am Deister 102.91km",
+        "scannable": true
+    },
+    {
+        "name": "0ATS",
+        "frequency": 439975000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Hannover/Messe 103.00km",
+        "scannable": true
+    },
+    {
+        "name": "0ROE",
+        "frequency": 438375000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Roeddensen, JO42XJ 103.24km",
+        "scannable": true
+    },
+    {
+        "name": "0ROE",
+        "frequency": 438375000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Lehrte 103.24km",
+        "scannable": true
+    },
+    {
+        "name": "0ROE",
+        "frequency": 438375000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Lehrte 103.24km",
+        "scannable": true
+    },
+    {
+        "name": "DK7BW",
+        "frequency": 438025000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Osnabrueck, Digital 104.01km",
+        "scannable": true
+    },
+    {
+        "name": "0SHG",
+        "frequency": 438987500,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "SÃ¼ntelturm, Bad MÃ¼nder 104.04km",
+        "scannable": true
+    },
+    {
+        "name": "DM0IZH",
+        "frequency": 439875000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Itzehoe Hafen 104.31km",
+        "scannable": true
+    },
+    {
+        "name": "0OBO",
+        "frequency": 439537500,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Hameln Weserbergland 104.81km",
+        "scannable": true
+    },
+    {
+        "name": "0NI",
+        "frequency": 438775000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "LUENEBURG 106.37km",
+        "scannable": true
+    },
+    {
+        "name": "0HHN",
+        "frequency": 438375000,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Henstedt-Ulzburg 106.50km",
+        "scannable": true
+    },
+    {
+        "name": "DM0IZH",
+        "frequency": 145687500,
+        "modulation": "nfm",
+        "underlying": "",
+        "description": "Itzehoe 106.75km",
+        "scannable": true
+    }
+]
